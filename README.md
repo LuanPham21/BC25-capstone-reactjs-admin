@@ -1,6 +1,6 @@
-Quản lý phim (list,xoá,sửa,thêm) :  Quang
-Tạo lịch chiếu vs thông tin cá nhân : Nguyên
-Quản lý người dùng (sửa ,thêm list) : Luân
+Quản lý phim (list,xoá,sửa,thêm) : Quang .
+Tạo lịch chiếu vs thông tin cá nhân : Nguyên .
+Quản lý người dùng (sửa ,thêm list) : Luân .
 
 # Getting Started with Create React App
 
