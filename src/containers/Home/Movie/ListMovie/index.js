@@ -154,6 +154,14 @@ export default function ListMovie() {
             >
               Xoá
             </Typography.Link>
+            <Link
+              to={`showtime/${record.maPhim}/${record.tenPhim}`}
+              onClick={() => {
+                localStorage.setItem("recordParams", JSON.stringify(record));
+              }}
+            >
+              <Typography.Link className="ml-4">Lịch</Typography.Link>
+            </Link>
           </>
         );
       },

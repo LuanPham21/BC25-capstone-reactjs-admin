@@ -16,6 +16,11 @@ import {
   GetMovieReducer,
   UpdateMovieReducer,
 } from "containers/Home/Movie/UpdateMovie/reducer";
+import {
+  cumRapReducer,
+  heThongRapReducer,
+  lichChieuReducer,
+} from "containers/Home/Movie/Showtime/reducer";
 
 const rootReducer = combineReducers({
   LoginAuthReducer,
@@ -28,6 +33,9 @@ const rootReducer = combineReducers({
   CreateMovieReducer,
   GetMovieReducer,
   UpdateMovieReducer,
+  cumRapReducer,
+  heThongRapReducer,
+  lichChieuReducer,
 });
 
 export default rootReducer;

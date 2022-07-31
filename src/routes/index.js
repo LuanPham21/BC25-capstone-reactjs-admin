@@ -31,6 +31,10 @@ const routes = [
         path: "movie/updatemovie/:id",
         element: lazy(() => import("./../containers/Home/Movie/UpdateMovie")),
       },
+      {
+        path: "movie/showtime/:id/:tenphim",
+        element: lazy(() => import("./../containers/Home/Movie/Showtime")),
+      },
     ],
   },
   //Auth Page
